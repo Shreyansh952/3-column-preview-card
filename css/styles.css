@@ -23,7 +23,7 @@ p {
 
 .btn {
     border-radius: 80px;
-    margin-top: 40%;
+    margin-top: 3rem;
     font-size: 1rem;
 }
 .row {
@@ -69,10 +69,7 @@ p {
     color:hsl(179, 100%, 13%); ;
 }
 
-@media (max-width:576px) {
-     .row {
-        margin: 5%;
-     }
+@media (max-width:767px) {
     .sedan {
         border-bottom-left-radius: 0;
         border-top-right-radius: 10px;
@@ -82,10 +79,10 @@ p {
         border-top-right-radius: 0;
         border-bottom-left-radius: 10px;
     }
-    .btn {
-         margin-top: 10%;
+    .plan {
+        max-height: 600px;
     }
-    p {
-         margin-top: 10%;
+    .row {
+        margin: 20% 7%;
     }
 }
