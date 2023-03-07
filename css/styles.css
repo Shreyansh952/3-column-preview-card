@@ -70,9 +70,9 @@ p {
 }
 
 @media (max-width:576px) {
-    main {
-        padding: 5% 0;
-    }
+     .row {
+        margin: 5%;
+     }
     .sedan {
         border-bottom-left-radius: 0;
         border-top-right-radius: 10px;
@@ -81,5 +81,11 @@ p {
         background-color: hsl(179, 100%, 13%);
         border-top-right-radius: 0;
         border-bottom-left-radius: 10px;
+    }
+    .btn {
+         margin-top: 10%;
+    }
+    p {
+         margin-top: 10%;
     }
 }
